@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecrã · Torneio de Tipografia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+</head>
+<body class="screen">
+  <div class="screen-root">
+    <div class="screen-top" id="top"></div>
+    <div class="screen-main" id="main"></div>
+  </div>
+  <div class="screen-nav">
+    <button data-view="auto" class="active">Automático</button>
+    <button data-view="classificacao">Classificação</button>
+    <button data-view="quadro">Quadro</button>
+    <button data-view="full">Ecrã inteiro</button>
+  </div>
+  <script type="module" src="js/screen.js"></script>
+</body>
+</html>

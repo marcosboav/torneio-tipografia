@@ -1,0 +1,8 @@
+{
+  "name": "torneio-tipografia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/logic.test.mjs"
+  }
+}
